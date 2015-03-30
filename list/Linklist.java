@@ -1,5 +1,7 @@
 package list;
 
+import java.util.Scanner;
+
 public class Linklist implements IList{
 	private Node head;
 	public Linklist() {
@@ -7,7 +9,7 @@ public class Linklist implements IList{
 		head=new Node(); //初始化头空节点
 		
 	}
-	public Linklist(int n,boolean order){
+	public Linklist(int n,boolean order) throws Exception{
 		this();
 		if(order){
 			create1(n);  //尾插法
@@ -15,12 +17,25 @@ public class Linklist implements IList{
 			create2(n);
 		}
 	}
-	public void create1(int n){  //n个节点
-		
+	public Node getHead(){
+		return head;
+	}
+	public void create1(int n) throws Exception{  //n个节点尾插法
+		Scanner sc = new Scanner(System.in);
+		for(int i=0;i<n;i++){
+			insert(length(), sc.next());
+			
+		}
+		sc.close();
 		
 	}
-public void create2(int n){
+public void create2(int n) throws Exception{
+	Scanner sc = new Scanner(System.in);
+	for(int i=0;i<n;i++){
+		insert(0, sc.next());
 		
+	}
+	sc.close();
 	}
 	@Override
 	public void clear() {
@@ -73,8 +88,8 @@ public void create2(int n){
 	 * 
 	 * 
 	 * */
-		Node p=head.getnext();
-		int j=0;
+		Node p=head;//////////////////////////////////////////
+		int j=-1;//////////////////////////////////////////////////
 		while (j<i-1&&p!=null){  //注意是查找插入位置的前驱节点
 			p=p.getnext();
 			j++;
@@ -97,13 +112,13 @@ public void create2(int n){
 	@Override
 	public void remove(int i) throws Exception {//注意判断i的位置合法性
 		// TODO Auto-generated method stub
-		Node p=head.getnext();
+		Node p=head;/////////////////////////////
 		int j=-1;
-		while(j<i-1&&p!=null){   //前驱
+		while(j<i-1&&p.getnext()!=null){   //前驱 p.getnext
 			j++;
 			p=p.getnext();
 		}
-		if(j>i-1||p==null)//注意判断i的位置合法性
+		if(j>i-1||p.getnext()==null)//注意判断i的位置合法性
 		{
 			throw new Exception("删除位置不对");
 		}
@@ -131,7 +146,7 @@ public void create2(int n){
 		// TODO Auto-generated method stub
 		Node p=head.getnext();
 		while(p!=null){
-			System.out.println(p.getdata());
+			System.out.print(p.getdata()+" ");
 			p=p.getnext();
 		}
 			
