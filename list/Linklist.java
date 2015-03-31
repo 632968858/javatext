@@ -26,7 +26,7 @@ public class Linklist implements IList{
 			insert(length(), sc.next());
 			
 		}
-		sc.close();
+	//	sc.close();
 		
 	}
 public void create2(int n) throws Exception{
@@ -35,7 +35,7 @@ public void create2(int n) throws Exception{
 		insert(0, sc.next());
 		
 	}
-	sc.close();
+	//sc.close();
 	}
 	@Override
 	public void clear() {

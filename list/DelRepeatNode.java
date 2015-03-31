@@ -7,8 +7,8 @@ public class DelRepeatNode {
  * 
  * 
  * */
-	public static void delrep(Linklist ll) throws Exception{
-		Node p= ll.getHead(); 
+	public static void delrep(Linklist ll) throws Exception{//删除重复节点
+		/*Node p= ll.getHead(); 
 		for(int i=0;i<ll.length();i++)   //不能用length
 		{
 			p=p.getnext();
@@ -25,16 +25,28 @@ public class DelRepeatNode {
 				j++;
 			}
 			
+		}*/
+		Node p=ll.getHead().getnext();
+		while(p!=null){
+			int index = ll.indexOf(p.getdata());
+			Node q= p.getnext();
+			while(q!=null){
+				if(p.getdata().equals(q.getdata()))
+				{
+					ll.remove(index+1);
+				//	System.out.println("删除：" +q.getdata().toString());
+				}
+				else	index++;     ////注意
+				q=q.getnext();
+			}
+			p=p.getnext();
 		}
 	}
 	public static void main(String[] args) throws Exception {
 		Linklist ll= new Linklist(10,true);//构造一个链表
-		ll.display();
-		System.out.println("");
+	//	ll.display();
+	//	System.out.println("");
 		delrep(ll);
 		ll.display();
-		
-		
-
 	}
 }
