@@ -1,5 +1,5 @@
 package basejava;
-
+/*测试java语法*/
 public class BaseJava {
 	public static void test(String s)
 	{
