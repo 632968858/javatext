@@ -29,11 +29,11 @@ public class Bubble_sort {
 		int j=i*2+1;
 		int temp =a[i];
 		while(j<high){
-			if(j<high-1&&a[j]>a[j+1])   /////最大孩子节点   high-1可达，high 不可达
+			if(j<high-1&&a[j]>a[j+1])   /////最小孩子节点   high-1可达，high 不可达
 			{
 				j++;
 			}
-			if(a[j]<temp){         ///孩子节如果大于父节点则交换，父节点保持最小
+			if(a[j]<temp){         ///最小孩子节如果小于父节点则交换，父节点保持最小  ，下沉，上浮
 			
 				a[i]=a[j];
 				i=j;
