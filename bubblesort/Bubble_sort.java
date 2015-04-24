@@ -75,7 +75,7 @@ public class Bubble_sort {
 		int i,j;
 		for(i=1;i<a.length;i++){
 			a[0]=a[i];
-			for(j=i-1;a[j]>a[0];j++){
+			for(j=i-1;a[j]>a[0];j--){
 				a[j+1]=a[j];
 			}
 			a[j+1]=a[0];
@@ -83,7 +83,7 @@ public class Bubble_sort {
 		return a;                       
 	}
 	public static void quickSort(int [] a,int begin,int end){  //快排   不稳定
-		if(begin<end){
+		if(begin<end){/////////////////////////////////
 		int i=randget(a,begin,end);
 		quickSort(a, begin, i-1);
 		quickSort(a, i+1, end);
@@ -106,7 +106,7 @@ public class Bubble_sort {
 	public static void selectSort(int a[]){  //选择排序不稳定涉及交换
 		for(int i=0;i<a.length-1;i++){            ///////////i用不着到a.length ,因为最后一个肯定在最后
 			int mix=i;
-			for(int j=i+1;j<a.length;j++){
+			for(int j=i+1;j<a.length;j++){    ////////////////////////
 				if(a[j]<a[mix])
 					mix=j;
 			}

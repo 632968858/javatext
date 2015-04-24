@@ -21,8 +21,8 @@ public class BiTree {
 		while(btn!=null&&(btn.getRchild()==null||btn.getRchild().equals(pre))){
 			System.out.print(btn.getData());
 			pre=btn;
-			if(stack.isEmpty())return;
-			btn=stack.pop();
+			if(stack.isEmpty())return;/////////////////
+			btn=stack.pop();//////////////////
 		}
 		stack.push(btn);
 		btn=btn.getRchild();
