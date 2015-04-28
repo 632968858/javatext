@@ -9,8 +9,8 @@ import java.util.Scanner;
 public class Bubble_sort {
 	public static void heapSort(int []a){
 		int temp;
-		for(int i=a.length/2-1;i>=0;i--){   //从非叶节点开始建堆///////////////////n/2-1
-			sift(a,i,a.length);   ///此处不用 sift(a,0,a.length)原因是还不是堆，不能直接使用/////////////////////////从非叶节点开始建堆
+		for(int i=a.length/2-1;i>=0;i--){   //从非叶节点开始建堆///////////////////n/2-1           nlg(n)
+			sift(a,i,a.length);   ///此处不用 sift(a,0,a.length)原因是还不是堆，不能直接使用/////////////////////////从非叶节点开始建堆lg(n)
 			}
 		System.out.println("heap ");
 		for(int i:a){
