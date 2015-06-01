@@ -7,6 +7,43 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 public class Bubble_sort {
+	public static void merge(int [] a){     //归并排序
+		int left =0;
+		int right=a.length;
+		int temp[]=new int[a.length];
+		internalMergeSort(a,temp,left,right-1);  /////////俩个数组归并
+	}
+	public static void internalMergeSort(int [] a,int[] b,int left,int right){     //归并排序
+		if(left<right){
+			int mid=(left+right)/2;
+			internalMergeSort(a,b,left,mid);
+			internalMergeSort(a,b,mid+1,right);//////////////////////
+			MergeSort(a,b,left,mid,right);
+			
+			
+		}
+	}
+	public static void MergeSort(int [] a,int[] b,int left,int mid,int right){//将a的左边和右边有序序列归并
+		int i=left;
+		int j=mid+1;///////////////////////////
+		int k=0;
+		while(i<=mid&&j<=right){
+			if(a[i]<=a[j]){
+					b[k++]=a[i++];
+				}else{
+					b[k++]=a[j++];
+				}
+		}
+		while(i<=mid){b[k++]=a[i++];}
+		while(j<=right){b[k++]=a[j++];}
+		for(i=0;i<k;i++){
+			a[left+i]=b[i];
+		}
+		for (int c : a) {
+			System.out.print(c);
+		}
+		System.out.println("");
+	}
 	public static void heapSort(int []a){
 		int temp;
 		for(int i=a.length/2-1;i>=0;i--){   //从非叶节点开始建堆///////////////////n/2-1           nlg(n)
@@ -43,6 +80,27 @@ public class Bubble_sort {
 			}
 		}
 		a[i]=temp;
+	}
+	public static void quickSort(int [] a,int begin,int end){  //快排   不稳定
+		if(begin<end){/////////////////////////////////
+		int i=randget(a,begin,end);
+		quickSort(a, begin, i-1);
+		quickSort(a, i+1, end);
+		}
+	}
+	public static int randget(int []a,int begin,int end){
+		int temp =a[begin];
+		while(begin<end){
+			while(begin<end&&a[begin]<temp)begin++; /////////////////begin<end 
+			while(begin<end&&a[end]>=temp)end--;/////////////////begin<end 
+			if(begin<end){
+				int temp2=a[begin];
+				a[begin]=a[end];
+				a[end]=temp2;
+			}
+		}
+		a[begin]=temp;
+		return begin;
 	}
 	public static int[] bubble_sort(int[] a) {            //稳定
 		boolean flag = true;
@@ -82,27 +140,7 @@ public class Bubble_sort {
 		}
 		return a;                       
 	}
-	public static void quickSort(int [] a,int begin,int end){  //快排   不稳定
-		if(begin<end){/////////////////////////////////
-		int i=randget(a,begin,end);
-		quickSort(a, begin, i-1);
-		quickSort(a, i+1, end);
-		}
-	}
-	public static int randget(int []a,int begin,int end){
-		int temp =a[begin];
-		while(begin<end){
-			while(begin<end&&a[begin]<temp)begin++; /////////////////begin<end 
-			while(begin<end&&a[end]>=temp)end--;/////////////////begin<end 
-			if(begin<end){
-				int temp2=a[begin];
-				a[begin]=a[end];
-				a[end]=temp2;
-			}
-		}
-		a[begin]=temp;
-		return begin;
-	}
+	
 	public static void selectSort(int a[]){  //选择排序不稳定涉及交换
 		for(int i=0;i<a.length-1;i++){            ///////////i用不着到a.length ,因为最后一个肯定在最后
 			int mix=i;
@@ -126,6 +164,18 @@ public class Bubble_sort {
 			a[i] = sc.nextInt();
 
 		}*/
+		int[] am={3,1, 4, 1 ,9 ,5 ,7 ,2};
+		System.out.println("开始输入顺序");
+		for (int i : am) {
+			System.out.print(i);
+		}
+		System.out.println();
+		System.out.println("归并排序");
+		merge(am);
+		for (int i : am) {     
+			System.out.print(i);
+		}
+		System.out.println();
 		int[] a={5, 3 ,4 ,2 ,1};
 		System.out.println("开始输入顺序");
 		for (int i : a) {

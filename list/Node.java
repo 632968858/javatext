@@ -6,7 +6,7 @@ package list;
 */
 public class Node {
 	private Object elem;
-	private Node node;
+	private Node node;//下一个节点
 	public Node(){
 		this(null,null); ////// 调用构造函数
 	}

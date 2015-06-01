@@ -12,14 +12,14 @@ class Repertory{
 		
 		while(current>=maxsize){                ///////此处应该为while
 			try{
-				wait();
+				wait();                                ///////////////
 			}catch(InterruptedException e){
 				e.printStackTrace();
 			}
 		}
 			current++;
 		System.out.println("生产后库存为:"+current);
-		notifyAll();
+		notifyAll();                         /////////////////////////////
 		try {
 			Thread.sleep(30);
 		} catch (InterruptedException e) {
@@ -34,7 +34,7 @@ class Repertory{
 		System.out.println("库存为:"+current);
 		while(current<=0){                             ///////此处应该为while
 			try{
-				wait();
+				wait();                              ////////////////////
 			}catch(InterruptedException e){
 				e.printStackTrace();
 			}
@@ -47,7 +47,7 @@ class Repertory{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		notifyAll();
+		notifyAll();                    ///////////////////
 	} 
 	}
 }

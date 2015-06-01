@@ -12,6 +12,7 @@ public class Mergeorderlist {
 		Node l=l1.getHead();
 		Node p=l1.getHead().getnext();
 		Node q=l2.getHead().getnext();
+		
 		while(p!=null&&q!=null){
 			if(Integer.valueOf(p.getdata().toString())<Integer.valueOf(q.getdata().toString())){
 				l.setnext(p);
@@ -23,6 +24,7 @@ public class Mergeorderlist {
 			}
 			l=l.getnext();
 		}
+		
 		l.setnext((p!=null)?p:q);
 	}
 	

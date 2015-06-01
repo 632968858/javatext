@@ -43,6 +43,15 @@ public class SocketSenderDemo {
 			bw.newLine();//分割新行   \n
 			bw.flush();
 		}
+		s.shutdownOutput();
+		//取反馈
+		BufferedReader brf=new BufferedReader(new InputStreamReader(s.getInputStream()));
+		String sf =brf.readLine();
+		System.out.println(sf);
+		brf.close();
+		
+		
+		
 		file.close();
 		s.close();
 	}

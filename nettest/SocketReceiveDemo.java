@@ -6,6 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -32,6 +33,15 @@ public static void main(String[] args) throws IOException {
 		bw.flush();
 	}
 	bw.close();
+	
+	//反馈
+	BufferedWriter bfb =new BufferedWriter(new OutputStreamWriter(s.getOutputStream()));
+	bfb.write("传输完毕");
+	bfb.newLine();
+	bfb.flush();
+	bfb.close();
+	
+	
 	s.close();
 	
 }
