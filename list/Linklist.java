@@ -10,7 +10,7 @@ public class Linklist implements IList{
 		
 	}
 	public Linklist(int n,boolean order) throws Exception{
-		this();
+		this();       //相当于初始化头节点
 		if(order){
 			create1(n);  //尾插法
 		}else{
