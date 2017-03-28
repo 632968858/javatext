@@ -1,2 +1,2 @@
-# javatext
+# AIJ
 ### Basic algorithm in Java
