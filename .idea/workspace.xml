@@ -2,103 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="489e387b-70c8-4e06-a8a8-e724bf425943" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BinaryDemo/CountOne.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DateDemo/CalendarDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DateDemo/DateDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MathDemo/RandomDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pattern/PatternDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pattern/PatternSort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QQDemo/ReceiveDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QQDemo/SendDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QQDemo/ThreadReceived.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QQDemo/ThreadSender.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/QQDemo/Threadqq.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basejava/BaseJava.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basejava/KMPAlgorithm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basejava/LastFinal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basejava/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basejava/MaxSubVector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basejava/Outer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basejava/OverloadText.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basejava/Privatejava.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basejava/RenameFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basejava/Superclass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basejava/TestHashSet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basejava/TestMain.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basejava/Transfer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basejava/chartoint.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basejava/key.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basejava/xidan.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bubblesort/Bubble_sort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/concurrent/BankTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/concurrent/DeamonTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/concurrent/JionText.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/concurrent/PipedIo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/concurrent/ProducerAndConsumer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/concurrent/TestCallable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/concurrent/ThreadPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/countday/Countday.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/current/BaseCurrent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/current/CurrentCallable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/current/Mainsub.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/designpattern/AbstractClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/designpattern/Command.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/designpattern/FirstDisplay.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/designpattern/Light.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/designpattern/LightOnCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/designpattern/SimpleRemoteControl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/designpattern/SingletonPattern.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/designpattern/WeatherData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/filesearch/FileSearch.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/filesearch/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/huiwensushu/Huiwensushu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list/DelRepeatNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list/IList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list/Linklist.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list/Mergeorderlist.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list/Node.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list/ReplaceBlank.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list/SqList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list/delNodeInO1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list/exampletestsqlist.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/list/reversList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/maxsub/Maxsub.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nettest/Gethostname.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nettest/PictureClint.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nettest/PictureServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nettest/ReceiveDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nettest/SendDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nettest/SocketReceiveDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nettest/SocketSenderDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/printn/PrintN.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/queue/CircleSqQueue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/queue/IQueue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/queue/LinkQueue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/queue/PrimNumCircle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/range/Element.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/range/KeyType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/range/RecordNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/range/SeqList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/recursive/Hanoi.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reflect/Person.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reflect/Property.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reflect/ReflectDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reflect/Student.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reflect/Teacher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stack/BigNumAdd.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stack/Checkmatch.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stack/IStack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stack/LinkStack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stack/Sqstack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stackqueuetransfer/QueueToStack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stackqueuetransfer/StackToQueue.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/superandsub/NotInit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/superandsub/Subclass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/superandsub/Superclass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tree/BiTree.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tree/BiTreeNode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tree/isPostTree.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xmltest/Domdemo.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/basejava/BaseJava.java" afterPath="$PROJECT_DIR$/src/main/java/basejava/BaseJava.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,11 +23,9 @@
       <file leaf-file-name="BaseJava.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/basejava/BaseJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,17 +64,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            <state relative-caret-position="30">
+              <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueueToStack.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QueueToStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/stackqueuetransfer/QueueToStack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-7">
@@ -204,6 +108,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/basejava/BaseJava.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -311,6 +216,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="stackqueuetransfer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AIJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AIJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basejava" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -778,16 +709,16 @@
       <option name="presentableId" value="Default" />
       <updated>1490866104355</updated>
       <workItem from="1490866106343" duration="977000" />
-      <workItem from="1490867132192" duration="180000" />
+      <workItem from="1490867132192" duration="411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1157000" />
+    <option name="totallyTimeSpent" value="1388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-292" y="-1057" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -798,7 +729,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -869,9 +800,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -909,16 +838,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#967#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/basejava/BaseJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -957,18 +876,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stackqueuetransfer/QueueToStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/basejava/BaseJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
           <folding />
         </state>
       </provider>
