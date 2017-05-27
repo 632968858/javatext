@@ -29,7 +29,7 @@ class CriticalResource {
             if (status != 1) {
                 condition1.await();
             }
-            System.out.println("a");
+            System.out.print("a");
             status = 2;
             condition2.signal();
         } catch (InterruptedException e) {
@@ -47,7 +47,7 @@ class CriticalResource {
             if (status != 2) {
                 condition2.await();
             }
-            System.out.println("b");
+            System.out.print("b");
             status = 3;
             condition3.signal();
         } catch (InterruptedException e) {
@@ -64,7 +64,7 @@ class CriticalResource {
             if (status != 3) {
                 condition3.await();
             }
-            System.out.println("c");
+            System.out.print("c");
             status = 1;
             condition1.signal();
         } catch (InterruptedException e) {
