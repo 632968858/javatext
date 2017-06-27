@@ -19,7 +19,6 @@ public class JionText {
         try {
             my.join(2000);              //等待my完成然后执行main后续的，或者在2000后执行
         } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         System.out.println("mainover");

@@ -5,10 +5,7 @@ package designpattern;
  * */
 public class SimpleRemoteControl {
 	private Command command;
-	/*Command [] oncommands;
-	Command [] offcommands;*/
 	public SimpleRemoteControl() {
-		// TODO Auto-generated constructor stub
 	}
 	public void setCommand(Command command){
 		this.command=command;

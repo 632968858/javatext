@@ -18,17 +18,14 @@ class Sender implements Runnable {
 
     @Override
     public void run() {
-        // TODO Auto-generated method stub
         while (true) {
             for (char c = 'A'; c < 'Z'; c++) {
                 try {
                     out.write(c);
                     TimeUnit.MILLISECONDS.sleep(rand.nextInt(500));
                 } catch (IOException e) {
-                    // TODO Auto-generated catch block
                     e.printStackTrace();
                 } catch (InterruptedException e) {
-                    // TODO: handle exception
                     e.printStackTrace();
                 }
 
@@ -46,12 +43,10 @@ class Recevier implements Runnable {
 
     @Override
     public void run() {
-        // TODO Auto-generated method stub
         while (true) {
             try {
                 System.out.println("reader:" + (char) in.read() + ",");
             } catch (IOException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         }

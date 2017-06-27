@@ -8,13 +8,15 @@ public class SingletonPatternFour {
     private SingletonPatternFour() {
     }
 
-    public static class SingletonHolder{
+    public static class SingletonHolder {
         private static volatile SingletonPatternFour singletonPatternFour = new SingletonPatternFour();
+
         public static SingletonPatternFour getInstance() {
             return singletonPatternFour;
         }
     }
-    public static SingletonPatternFour getInstance(){
+
+    public static SingletonPatternFour getInstance() {
         return SingletonHolder.getInstance();
     }
 
